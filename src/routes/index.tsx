@@ -156,7 +156,7 @@ function Index() {
                   <div className="relative z-10 flex items-center justify-between"><h3 className="font-display text-2xl">Prijzen</h3><span className="text-xs">Onbeperkt schaatsplezier</span></div>
                   <div className="relative z-10 mt-5 text-sm">{[["Kinderen tot 12 jaar","€6"],["Volwassenen","€9"],["Groepen (10+) / Kinderen tot 12 jaar","€8"],["Groepen (10+) / Volwassenen","€8"],["UitPAS","€5"]].map(([a,b]) => <div key={a} className="flex justify-between border-b border-line-dark py-4"><span>{a}</span><span className="text-sky">{b}</span></div>)}</div>
                   <div className="relative z-10 mt-8 flex flex-wrap items-center gap-6"><Button variant="snow">Schaatspiste boeken*</Button><span className="text-xs text-muted-blue">*Reserveren is enkel vereist voor scholen,<br />verenigingen en andere grote groepen.</span></div>
-                  <img src="/pricing-skate-outline.svg" alt="" aria-hidden="true" className="pointer-events-none absolute -right-8 bottom-[-18px] z-0 h-[240px] w-[260px] object-contain opacity-90 md:h-[300px] md:w-[320px]" />
+                  <img src="/union-2.png" alt="" aria-hidden="true" className="pointer-events-none absolute -right-3 bottom-[-6px] z-0 h-[240px] w-[240px] object-contain opacity-100 md:h-[270px] md:w-[270px]" />
                 </div>
               </div>
             </div>
